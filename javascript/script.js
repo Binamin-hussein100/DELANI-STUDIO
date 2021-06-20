@@ -43,7 +43,7 @@ $(document).ready(function(){
 
         }
         else{
-            alert("Dear " + userName + " ,thank you for reaching out. We will get back to you on "+ userEmail+ " incase we have feedback for you.")  
+            alert("Dear " + userName + " ,thank you for reaching out. We will get back to you on "+ userEmail+ " incase we have feedback for you.div")  
         }
 
 
