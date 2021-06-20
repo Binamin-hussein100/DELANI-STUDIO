@@ -52,7 +52,12 @@
     color: white;
 }
 
-#
+#works {
+    height: 25vh;
+    padding-top: 3%;
+    
+}
+
 #product-hide {
     display: none;
     text-align: center;
