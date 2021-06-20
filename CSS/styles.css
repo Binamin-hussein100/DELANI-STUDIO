@@ -1,0 +1,145 @@
+#intro {
+    
+    color: white;
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 90vh;
+    align-items: center;
+    position: relative;
+}
+
+#mouse {
+    margin-top: 27%;
+}
+
+
+.intro1 {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#about {
+    height: 30vh;
+    padding: 2%;
+    font-size: 65%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.about1 {
+    
+    /* width: 75%; */
+    margin: auto;
+}
+
+#service {
+    height: 35vh;
+    padding-top: 5%;
+    font-size: 81%;
+    justify-items: end;
+    text-align: center;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#works {
+    height: 25vh;
+    padding-top: 3%;
+    
+}
+
+#product-hide {
+    display: none;
+    text-align: center;
+    font-size: 75%;
+    margin-top: -5%;
+}
+
+#dev-hide {
+    display: none;
+    text-align: center;
+    font-size: 75%;
+    margin-top: -5%;
+}
+
+#hide{
+    display: none;
+    text-align: center;
+    font-size: 75%;
+    margin-top: -5%;
+}
+
+#process {
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+#row1 {
+    height: auto;
+
+}
+
+#row2 {
+    height: auto;
+    margin-top: 3%;
+
+}
+
+
+
+.col-md-3 {
+    height: auto;
+   
+
+}
+
+#img1 {
+    height: 100%;
+    width: 100%;
+}
+
+#port {
+   margin-left: 42%;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+#contact{
+    height: auto;
+    margin-top: 10%;
+    text-align: center;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    
+}
+
+input{
+    background-color: none;
+}
+#text {
+    width: 67%;
+    height: 40px;
+}
+
+#connect {
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2%;
+}
