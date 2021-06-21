@@ -104,6 +104,34 @@
 
 }
 
+#img2 {
+    height: 100%;
+    width: 100%;
+}
+#img3 {
+    height: 100%;
+    width: 100%;
+}
+#img4 {
+    height: 100%;
+    width: 100%;
+}
+#img5 {
+    height: 100%;
+    width: 100%;
+}
+#img6 {
+    height: 100%;
+    width: 100%;
+}
+#img7 {
+    height: 100%;
+    width: 100%;
+}
+#img8 {
+    height: 100%;
+    width: 100%;
+}
 #img1 {
     height: 100%;
     width: 100%;
@@ -119,6 +147,7 @@ h3 {
 
 #contact{
     height: auto;
+    padding: 2%;
     margin-top: 10%;
     text-align: center;
     background-image: url(../assets/backgrounds/c_image.jpg);
@@ -142,4 +171,29 @@ input{
 .footer {
     text-align: center;
     margin-top: 2%;
+}
+
+#label1,
+#label2,
+#label3,
+#label4,
+#label5,
+#label6,
+#label7,
+#label8
+
+    {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    top: 0.0em;
+    text-align: center;
+    display: none;
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    padding-top: 30%;
+    cursor: pointer;
 }
