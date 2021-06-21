@@ -19,13 +19,60 @@ $(document).ready(function(){
     })
 
 
+    //mouse over
+    $(document).ready(function(){
+        $("#work1").mouseover(function(){
+            $("#label1").show();
+        }).mouseout(function(){
+            $("#label1").hide();
+        });
+        
+        $("#work2").mouseover(function(){
+            $("#label2").show();
+        }).mouseout(function(){
+            $("#label2").hide();
+        })
+
+        $("#work3").mouseover(function(){
+            $("#label3").show();
+        }).mouseout(function(){
+            $("#label3").hide()
+        })
+
+        $("#work4").mouseover(function(){
+            $("#label4").show();
+        }).mouseout(function(){
+            $("#label4").hide();
+        })
+
+        $("#work5").mouseover(function(){
+            $("#label5").show();
+        }).mouseout(function(){
+            $("#label5").hide();
+        })
+
+        $("#work6").mouseover(function(){
+            $("#label6").show();
+        }).mouseout(function(){
+            $("#label6").hide();
+        })
+
+        $("#work7").mouseover(function(){
+            $("#label7").show();
+        }).mouseout(function(){
+            $("#label7").hide();
+        })
+
+        $("#work8").mouseover(function(){
+            $("#label8").show();
+        }).mouseout(function(){
+            $("#label8").hide();
+        })
+    });
 
 
 
-
-
-
-
+        //business logic
     $("button").click(function(event){
         event.preventDefault()
         let userName = document.getElementById("userName").value;
